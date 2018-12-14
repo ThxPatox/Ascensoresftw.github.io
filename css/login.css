@@ -1,0 +1,44 @@
+@font-face{
+    font-family: "ltull";
+    src: url("./font/Friendly Schoolmates (Italic) Font by Situjuh (7NTypes).otf");
+  }
+input[type=text]{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+input[type=password]{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+input[type=search]{
+    font-family: ltull;
+    width: 50%;
+    font-size: 20px
+}
+label{
+    font-family: ltull;
+    font-size: 40px;
+}
+button{
+    font-family: ltull;
+    font-size: 40px;
+    margin-top: 10px;
+}
+form{
+    text-align: center;
+    margin-top: 30px;
+    background-color: rgb(59, 56, 12)
+}
+@media screen and (max-width: 800px) {
+    body{
+        background-color: brown;
+    }
+    form{ background-color: rgb(22, 5, 5); color: rgb(48, 44, 44); }
+}
+@media screen and (max-width: 500px) {
+    body{
+        background-color: rgb(37, 10, 10);
+    }
+    form{ background-color: rgb(41, 41, 41); color: rgb(255, 255, 255); }
+    input[type=search]{ width: 100% }
+}

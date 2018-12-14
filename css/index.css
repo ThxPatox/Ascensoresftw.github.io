@@ -1,0 +1,50 @@
+@font-face{
+    font-family: "ltul";
+    src: url("./font/Barbecue Personal Use.ttf");
+  }
+@font-face{
+    font-family: "ltull";
+    src: url("./font/Friendly Schoolmates (Italic) Font by Situjuh (7NTypes).otf");
+  }
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rihgtxD{
+    width: 55%;
+    padding: 25px;
+}
+.Left{
+    width: 35%;
+    padding: 25px;
+}
+#ascensor{
+    width: 100%;
+}
+#seguridad{
+    height: 70%;
+    margin-top: 0;
+}
+#maintence{
+    width: 90%;
+    padding: 10px;
+}
+.titulo{
+    font-family: ltul;
+    font-size: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.titulomp{
+    font-family: ltul;
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.texto{
+    font-family: ltull;
+    font-size: 30px;
+    padding-left: 10px;
+}

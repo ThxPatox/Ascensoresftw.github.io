@@ -1,0 +1,19 @@
+.topnav li{
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid;
+}
+ul.topnav li a{
+    font-size: 15px;
+}
+.Left{
+    width: 100%;
+}
+.rihgtxD{
+    width: 100%;
+}
+body{
+    background-color: brown;
+}

@@ -1,0 +1,68 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>ServicioTecAsc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body>
+    <ul class="topnav">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="tareas.html">Tareas</a></li>
+      <li><a class="active" href="login.html">Login</a></li>
+      <li class="right"><a href="http://127.0.0.1:8000/tareas/">About</a></li>
+    </ul>
+
+    </header>
+    <input type="search" id="usuario" placeholder="Solo puedo Buscarlos por su correo :c">
+
+    <main>
+
+      <form id="formLogin">
+        <label for="usuario">Usuario: </label>
+        <input id="user" type="text" required >
+
+        <br>
+
+        <label for="password">Contraseña: </label>
+        <input id="contraseña" type="password" required >
+
+        <br>
+
+        <button id="btnLogin">Iniciar Sesión</button>
+
+      </form>
+
+    </main>
+    <footer>
+        <table>
+            <tr>
+                <td>&#9993; <b>Email</b></td>
+                <td>
+                    <a href="mailto:ServicioTecAsc@gmail.com">
+                            ServicioTecAsc@gmail.com
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>&#9742; <b>Telefono</b></td>
+                <td>
+                    <a href="tel:+56920202020">
+                            +569 2020 2020
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <b>&copy; Todos los derechos reservados.</b> 
+                </td>
+            </tr>
+        </table>
+    </footer> 
+</body>
+<script src="js/service-wroker-register.js"></script>
+</html>

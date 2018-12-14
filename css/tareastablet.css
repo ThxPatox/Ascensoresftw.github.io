@@ -1,0 +1,10 @@
+body{
+    background-color: brown;
+}
+.tarea{
+    border-radius: 27px;
+    width: 45%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,38 @@
+@font-face{
+    font-family: "ltull";
+    src: url("./font/Friendly Schoolmates (Italic) Font by Situjuh (7NTypes).otf");
+  }
+.tareacontenedor{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.tarea{
+    border: 7px double rgb(15, 47, 68);
+    border-radius: 27px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.tarea h3{
+    font-family: ltull
+}
+.tarea p{
+    font-family: ltull;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+input[type=search] { 
+	color: red;  
+	text-align: right;
+    cursor: pointer;
+    font-size: 30px;
+	width: 100%; 
+	letter-spacing: 4px;        
+	text-shadow: 0 0 2px black;       
+    word-spacing: 20px;  
+    text-align: center;             
+}

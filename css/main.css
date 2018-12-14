@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    background-color: rgb(172, 113, 25)
+}
+footer{
+  background-color: rgb(14, 11, 58);
+  padding: 2%;
+  margin-top: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+footer a{
+   color: white;
+}
+footer tr{
+  color: black
+}
