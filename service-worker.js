@@ -19,11 +19,14 @@ var filesToCache = [
   '/js/jquery.js',
   '/js/app.js',
   '/js/login.js',
-  '/img/manifest/logo-128px.png',
-  '/img/manifest/logo-144px.png',
-  '/img/manifest/logo-152px.png',
-  '/img/manifest/logo-192px.png',
-  '/img/manifest/logo-256px.png',
+  'images/icons/icon-512x512.png',
+  'images/icons/icon-384x384.png',
+  'images/icons/icon-192x192.png',
+  'images/icons/icon-152x152.png',
+  'images/icons/icon-144x144.png',
+  'images/icons/icon-128x128.png',
+  'images/icons/icon-96x96.png',
+  'images/icons/icon-72x72.png'
 ];
 
 self.addEventListener('install', function(e) {
